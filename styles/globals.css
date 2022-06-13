@@ -1,16 +1,19 @@
+@font-face {
+  font-family: "PixelarRegularW01-Regular";
+  src: url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.eot");
+  src: url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.woff") format("woff"), url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.svg#PixelarRegularW01-Regular") format("svg");
+}
+
 html,
 body {
+  background-color: #111823;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: PixelarRegularW01-Regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+body {
+  width: 90%;
+  margin: auto;
 }
